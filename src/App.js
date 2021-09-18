@@ -5,6 +5,15 @@ import Home from './components/Home/Home';
 import MainHeader from './components/MainHeader/MainHeader';
 
 function App() {
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
+
+  const loginHandler = (email, password) => {
+    
+  };
+
+  const logoutHandler = () => {
+    
+  };
 
   return (
     <React.Fragment>
